@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+  background-color: purple;
+  color: antiquewhite;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.login{
+
+    font-size: large;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+
+.section{
+    background-color: darkgray;
+    height: 200px;
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(181, 157, 247);
+    overflow:hidden;
+    font-family:sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration:solid;
+    font-size: 25px;
+  }
+  
+ 
+  .navbar a:hover {
+    background-color: rgb(56, 21, 153);
+  }
+  
+
+  .active {
+    background-color: #b80bec;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  aside{
+    background-color: brown;
+    height: 450px;
+    width: 300px;
+}
+.icon{
+color: black;
+
+}
+#section{
+background-color: blueviolet;
+height: 450px;
+width: 900px;
+margin-top: -450px;
+margin-left: 300px;
+}
